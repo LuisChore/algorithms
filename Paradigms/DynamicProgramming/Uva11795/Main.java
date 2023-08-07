@@ -14,7 +14,7 @@ class Main{
     }
     int weapon = busterWeapon;
     for(int i=0;i<n;i++){
-      if( (mask & (1<<i)) == 1){
+      if( (mask & (1<<i)) > 0){
         weapon = weapon | weapons.get(i);
       }
     }
@@ -27,7 +27,8 @@ class Main{
     dp.set(mask,ans);
     return ans;
   }
-	public static void main(String args[]) throws Exception{
+
+  public static void main(String args[]) throws Exception{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		PrintWriter pw = new PrintWriter(new BufferedWriter(new OutputStreamWriter(System.out)));
 		int cases = Integer.parseInt(br.readLine());
@@ -61,6 +62,6 @@ class Main{
 
 
     }
-		pw.close();
+    pw.close();
 	}
 }
