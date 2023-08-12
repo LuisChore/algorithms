@@ -20,7 +20,6 @@ class Main{
     return ok;
   }
 
-
   public static boolean isCube(int value){
     int low = 1,high = 500;
     boolean ok = false;
