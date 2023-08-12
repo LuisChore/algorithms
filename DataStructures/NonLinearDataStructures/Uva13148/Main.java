@@ -1,7 +1,6 @@
 import java.io.*;
 import java.util.*;
 class Main{
-
   public static boolean isSquare(int value){
     int low = 1,high = 10000;
     boolean ok = false;
@@ -19,7 +18,6 @@ class Main{
     }
     return ok;
   }
-
   public static boolean isCube(int value){
     int low = 1,high = 500;
     boolean ok = false;
