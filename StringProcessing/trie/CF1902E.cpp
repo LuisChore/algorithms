@@ -1,5 +1,5 @@
 // https://codeforces.com/problemset/problem/1902/E
-// trie (reimplement)
+//trie (reimplement)
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long lli;
